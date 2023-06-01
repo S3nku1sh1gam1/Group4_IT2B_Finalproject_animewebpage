@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE profile [
+<!ELEMENT profile (name, description, age, address, hobbies, school, section, teacher, introduction)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+<!ELEMENT school (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT introduction (#PCDATA)>
+]>
+
+<profile>
+	<c>
+		<name>Mark Angelo Lazo</name>
+		<description>Hello, My name is Mark Angelo Lazo currently studying at Marinduque State College taking Bachelor of Science in Information Technology, 2 year college.</description>
+		<age>20 years old</age>
+		<address>Mataas na Bayan, Mogpog, Marinduque</address>
+		<hobbies>Playing Online Games, Playing Basketball, Table Tennis and Watching Anime and Movies</hobbies>
+		<school>Marinduque State College</school>
+		<section>2B</section>
+		<teacher>Mr. Romeo Labyana</teacher>
+	</c>
+
+	<c>
+		<name>Jay Renz G. Mantala</name>
+		<description>is an Filipino business man, CEO of Google Company and software engineer who is the creator and, historically, the lead developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git.</description>
+		<age>20 years old</age>
+		<address>Magapua, Mogpog, Marinduque</address>
+		<hobbies>Playing Computer and Mobile, Playing Basketball, Board Games and Swimming</hobbies>
+		<school>Marinduque State College</school>
+		<section>2B</section>
+		<teacher>Mr. Romeo Labyana</teacher>
+	</c>
+	<c>
+		<name>James M. Tan</name>
+		<description>Hi, My name is James Tan, from Villa Mendez, Mogpog, Marinduque. I'm currently 20 years old and I'm born on December 20, 2002. I'm second year student in Marinduque State College, taking Information Technology.</description>
+		<age>20 years old</age>
+		<address>Villa Mendez, Mogpog, Marinduque</address>
+		<hobbies>Playing Online Games, Watching Movies, Anime and Cooking and Art</hobbies>
+		<school>Marinduque State College</school>
+		<section>2B</section>
+		<teacher>Mr. Romeo Labyana</teacher>
+	</c>
+</profile>
